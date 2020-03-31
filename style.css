@@ -11,46 +11,50 @@
     color : #111111;
   }
   .job{
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: center;
     margin: inherit;
     margin-top: 10px;
-    color: #c7c7c7;
+    color: #111111;
   }
   .content{
     margin-top: 0%;
   }
-  .left-column{
+  .right-column{
       padding: 4%;
       padding-top: 4%;
       background-color: #ffffff;
   }
-  .left-column .content-diplome h4{
+  .right-column .content-diplome h4{
     margin-bottom: inherit;
     margin-top: 4%;
     font-weight: bold;
     color : #111111;
   }
-  .left-column .content-competences h4{
+  .right-column .content-competences h4{
       margin-bottom: 1%;
       margin-top: 4%;
       font-weight: bold;
       color : #111111;
   }
-  .left-column h3{
+  .right-column h3{
       font-size: 1.35em;
       font-weight: 600;
       margin-bottom: 4%;
       margin-top: 8%;
   }
-  .right-column h3{
-      color: #aaaaaa;
-      font-size: 1.35em;
-      font-weight: 600;
-      margin-top: 6%;
-      margin-bottom: 4%;
-  }
-  .right-column h4{
+  .left-column h3{
+    color: #feca07;
+    font-size: 1.35em;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 12%;
+    margin-bottom: inherit;
+    background-color: #404040;
+}
+  .left-column h4{
       margin-bottom: 3%;
       color: #eeeeee;
       margin-top: 6%;
@@ -62,6 +66,9 @@
   .contact p{
     margin:2%;
   }
+  .uk-grid{
+    padding-left: 0;
+  }
 }
 @media only screen and (min-width: 960px) {
   .name{
@@ -71,9 +78,9 @@
   }
   .job{
     margin: inherit;
-    color: #c7c7c7;
+    color: #111111;
   }
-  .left-column{
+  .right-column{
       padding: 6%;
       padding-top: 8%;
       background-color: #ffffff;
@@ -81,32 +88,36 @@
   .content{
     margin-top: 8%;
   }
-  .left-column .content-diplome h4{
+  .right-column .content-diplome h4{
     margin-bottom: inherit;
     margin-top: 2.9%;
     font-weight: bold;
     color : #111111;
   }
-  .left-column .content-competences h4{
+  .right-column .content-competences h4{
       margin-bottom: 1%;
       margin-top: 4%;
       font-weight: bold;
       color : #111111;
   }
-  .right-column h3{
-      color: #aaaaaa;
-      font-size: 1.35em;
-      font-weight: 600;
-      margin-top: 15%;
-      margin-bottom: 10%;
-  }
   .left-column h3{
+    color: #feca07;
+    font-size: 1.35em;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 12%;
+    margin-bottom: inherit;
+    background-color: #404040;
+}
+  .right-column h3{
       font-size: 1.35em;
       font-weight: 600;
       margin-bottom: 5%;
       margin-top: 10%;
   }
-  .right-column h4{
+  .left-column h4{
       margin-bottom: 3%;
       color: #eeeeee;
       margin-top: 10%;
@@ -131,48 +142,54 @@
     margin-left: 0.5%;
     color : #111111;
   }
+  
   .job{
     margin: inherit;
-    color: #c7c7c7;
+    color: #111111;
   }
   .content{
     margin-top: 8%;
   }
-  .left-column h3{
+  .right-column h3{
       font-size: 1.35em;
       font-weight: 600;
       margin-bottom: 5%;
       margin-top: 10%;
   }
-  .left-column .content-diplome h4{
+  .right-column .content-diplome h4{
     margin-bottom: inherit;
-    margin-top: 2.9%;
+    margin-top: 2%;
     font-weight: bold;
     color : #111111;
   }
-  .left-column .content-competences h4{
+  .right-column .content-competences h4{
       margin-bottom: 1%;
       margin-top: 4%;
       font-weight: bold;
       color : #111111;
   }
-  .right-column h3{
-      color: #aaaaaa;
+  .left-column h3{
+      color: #feca07;
       font-size: 1.35em;
+      text-align: center;
       font-weight: 600;
-      margin-top: 15%;
-      margin-bottom: 10%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      margin-top: 12%;
+      margin-bottom: inherit;
+      background-color: #404040;
   }
-  .right-column h4{
+  .left-column h4{
       margin-bottom: 3%;
-      color: #eeeeee;
+      color: #feca07;
       margin-top: 10%;
   }
   .contact{
     margin-top: 10%;
   }
   .contact p{
-    margin:3%;
+    margin:0%;
+    line-height: 1.3em;
   }
 }
 /* --------------------------------------- GLOBAL --------------------------------------- */
@@ -194,26 +211,31 @@
     font-weight: normal;
     src: local('Georgia Regular'), url('ressources/font/georgia.woff') format('woff');
 }
-h3, h5{
-    font-family: 'Lobster Two', cursive;
-    font-style: italic;
-    color: #d6a11c;
+h3{
+  font-family: 'open_sansregular';
+    color: #111111;
     font-size: 1.35em;
     font-weight: 600;
     letter-spacing: 1px;
 }
 h1{
     font-family: 'open_sansregular';
-    font-size: 1.9em;
+    font-size: 2.2em;
 }
 h2{
     font-family: 'open_sansregular';
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 h4{
     font-family: 'open_sansregular';
     font-size: 1em;
     margin: inherit;
+}
+h5{
+  font-family: 'open_sansregular';
+    color: #111111;
+    font-size: 0.9em;
+    margin: 7px 0;
 }
 p{
     font-family: 'open_sansregular';
@@ -225,18 +247,37 @@ body{
     margin: auto;
     background-color: #525659;
 }
-/* --------------------------------------- LEFT COLUMN --------------------------------------- */
+/* --------------------------------------- RIGHT COLUMN --------------------------------------- */
 
-.left-column p{
+.right-column p{
     color: #444444;
     margin-top: 0;
     margin-bottom: 1%;
 }
-.left-column .content-competences p{
+.right-column h3{
+  border-bottom: 2px solid #feca07;
+  line-height: 2.5em;
+}
+.right-column .fas {
+  color: #feca07;
+  margin-right:4%;
+  margin-left: 1%;
+}
+.right-column .far {
+  color: #feca07;
+  margin-right:4%;
+  margin-left: 1%;
+}
+.right-column .content-competences p{
     margin-top: 1%;
     margin-bottom: 0;
     color: #444444;
     font-weight: 100;
+}
+.right-column .content-diplome p{
+  letter-spacing: 0.02em;
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
 }
 .texte-bold{
   font-weight: bold;
@@ -248,133 +289,79 @@ body{
 .texte-date{
   color : #777777;
 }
-.barre-left{
+.barre-right{
   border-radius: 0.1em;
   width: 80%;
   background-color: #cccccc;
 }
-
-/* --------------------------------------- RIGHT COLUMN --------------------------------------- */
-
-.right-column{
-    padding: 3%;
-    padding-top: 4%;
-    background-color: #333333;
-    color: #ffffff;
+.yellow{
+  color : #feca07;
 }
-.right-column p{
-    margin-top: 3%;
+.border-bottom{
+  border-bottom: 2px solid #feca07;
+}
+.content-date-lieu{
+  display: flex;
+}
+.date-lieu{
+  margin-left: 10%;
+}
+/* --------------------------------------- LEFT COLUMN --------------------------------------- */
+
+.left-column{
+    padding: 0;
+    padding-top: 4%;
+    background-color: #feca07;
+    color: #111111;
+}
+.left-column p{
+    margin-top: 10%;
     margin-bottom: 3%;
-    color: #eaeaea;
+    margin-left: 12%;
+    margin-right: 12%;
+    color: #111111;
     font-weight: 100;
 }
-.barre-right{
+.left-column .propos p{
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #111111;
+  letter-spacing: 0.02em;
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 80%;
+}
+
+.barre-left{
   border-radius: 0.1em;
   width: 95%;
   background-color: #292929;
 }
-.footer-right-box{
+.footer-left-box{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.footer-left-box .fas{
+  font-size: 2.2em;
+  margin: 6%;
+  color : #292929;
 }
 
 /* --------------------------------------- PHOTO --------------------------------------- */
 
 .photo{
     text-align: center;
-    padding-bottom: 4%;
 }
 #photo{
-    height: 70%;
-    width: 70%;
+    height: 55%;
+    width: 55%;
+    -webkit-filter: drop-shadow(0px 0px 3px #222 );
+    filter: drop-shadow(0px 0px 3px #222);
 }
 #photo-small{
     height: 160px;
     width: 160px;
-}
-
-/* --------------------------------------- RIGHT LVL --------------------------------------- */
-
-.lvl-anglais{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 25%;
-  background-color: #d6a11c;
-}
-.lvl-office{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 15%;
-  background-color: #d6a11c;
-}
-.lvl-c{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 52%;
-  background-color: #d6a11c;
-}
-.lvl-html-css{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 18%;
-  background-color: #d6a11c;
-}
-.lvl-joomla{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 45%;
-  background-color: #d6a11c;
-}
-.lvl-php{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 60%;
-  background-color: #d6a11c;
-}
-.lvl-mysql{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 60%;
-  background-color: #d6a11c;
-}
-
-/* --------------------------------------- LEFT LVL --------------------------------------- */
-
-.lvl-autonomie{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 15%;
-  background-color: #696969;
-}
-.lvl-algorithmie{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 20%;
-  background-color: #696969;
-}
-.lvl-gestion{
-  border-top-left-radius: 0.1em;
-  border-bottom-left-radius: 0.1em;
-  padding-top: 3.5px;
-  padding-bottom: 3.5px;
-  margin-right: 30%;
-  background-color: #696969;
 }
